@@ -16,7 +16,7 @@ Repositorio para la materia ingeniería y calidad de software, del curso 4k1 - G
 | 8 | Llorens, Juan Cruz | 91927 |
 | 9 | López, Iván | 89776 |
 | 10 | Musumeci, Agustín | 401068 |
-| 11 | Prado, Ignacio | 97285 |
+| 11 | Prado, Ignacio | 97286 |
 | 12 | Torres Linares, Hernán | 401089 |
 | 13 | Zurbriggen, Ignacio | 94110 |
 
