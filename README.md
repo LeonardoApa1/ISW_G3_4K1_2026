@@ -27,6 +27,8 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 
 ```text
 └── ISW_G3_4K1_2026
+    ├── 📁 base
+    │
     ├── 📁 material_catedra
     │   ├── 📁 bibliografia
     │   ├── 📁 guias
@@ -55,13 +57,11 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
         ├── 📁 parciales_viejos_2
         └── 📁 resumenes_para_parciales
 ```
-*(Nota de infraestructura: Debido a que el sistema de control de versiones Git no rastrea directorios vacíos, las carpetas que temporalmente no posean contenido incluyen un archivo oculto `.gitkeep`. Este archivo es de carácter puramente estructural para mantener la arquitectura del repositorio, no se considera un Ítem de Configuración y puede ser eliminado una vez que el directorio aloje los entregables correspondientes).*
-
 ## Ítems de configuración
 
 | Ítem de configuración | Regla de nombrado | Ubicación lógica (Carpeta) | Tipo de ítem |
 | :--- | :--- | :--- | :--- |
-| **Documento Línea Base (SCM)** | `ISW_<NAME_BL>BASE_LINE.md` | Directorio raíz | Producción Propia |
+| **Documento Línea Base (SCM)** | `ISW_<NAME_BL>BASE_LINE.md` | `base` | Producción Propia |
 | **Bibliografía** | `BIBLIO_<Nombre_Tema>_<Autor>.pdf` | `material_catedra/bibliografia` | Cátedra |
 | **Templates (Plantillas)** | `TEMPLATE_<Nombre_Tema>.pdf` | `material_catedra/templates` | Cátedra |
 | **Presentaciones (Filminas)** | `PRE_<Nombre_Tema>.pdf` | `material_catedra/presentaciones` | Cátedra |
@@ -81,26 +81,21 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | `<NN>` | Número correlativo de dos dígitos (Ej: 01, 02, 07). |
 | `<P>` | Número identificador del parcial. Valores posibles: 1 o 2. |
 | `<Nombre_Tema>` | Descripción corta del tema en formato *snake_case* y sin tildes (Ej: scm, testing). |
-| `<Autor>` | Apellido del autor del material de estudio. Si el material tiene múltiples autores, se utiliza el apellido del autor principal seguido de `_et_al` (Ej: `sommerville`, `pressman_et_al`).|
+| `<Autor>` | Apellido del autor del material de estudio (Ej: sommerville, pressman). |
 | `<Año>` | Año en el que se tomó el parcial viejo (Ej: 2024, 2025). |
 | `<Turno>` | Turno en el que se tomó el examen. Valores posibles: M (Mañana), T (Tarde), N (Noche). |
 
 
 ## Criterio de línea base
 
-Una **Línea Base** representa un estado estable, formalmente revisado y congelado de los ítems de configuración del proyecto. Como grupo, definimos que se establecerán líneas base en los siguientes hitos:
+Como grupo, hemos decidido que el momento para definir una nueva línea base será cuando el repositorio alcance un hito u objetivo importante en términos de completitud académica y de gestión. Esto sucederá al consolidar un conjunto significativo de entregables o material de estudio, garantizando que el contenido se encuentre en un estado estable y apto para ser auditado, evaluado o utilizado como referencia final.
 
-1. **Línea Base Inicial:** Se establece al aprobar el diseño de la arquitectura del repositorio y este Plan de Gestión de Configuración (SCM).
-2. **Línea Base de Entrega:** Se establece en el momento exacto en que se finaliza y se congela el desarrollo de un Trabajo Práctico o Investigación para ser entregado a la cátedra para su evaluación.
-3. **Línea Base de Corrección:** Se establece únicamente si la cátedra solicita correcciones o re-entregas sobre una Línea Base de Entrega previa.
-
-Cada línea base se marcará obligatoriamente mediante un **Tag de Git** en el repositorio utilizando la nomenclatura semántica **`v[MAJOR].[MINOR]`**, donde:
-
-* **`MAJOR`**: Se incrementa cada vez que se alcanza un nuevo hito principal (Ej: Aprobación del repositorio inicial `v1.0`, Entrega del TP 1 `v2.0`, Entrega del TP 2 `v3.0`).
-* **`MINOR`**: Se incrementa exclusivamente cuando se integran correcciones, ajustes o parches sobre un hito mayor ya entregado, producto del feedback de la cátedra (Ej: Si el TP 1 entregado en la `v2.0` requiere ajustes, la nueva versión corregida será la `v2.1`).
+Para ello, nos aseguraremos de que todos los documentos y resoluciones clave estén finalizados, que no existan inconsistencias estructurales, y que los archivos cumplan con los requisitos formales acordados. Además, la totalidad de los ítems de configuración asociados deberán estar actualizados, respetando la nomenclatura definida, y el material deberá haber pasado por las revisiones del equipo antes de ser marcado formalmente como línea base en el repositorio
 
 ## Registro de líneas base
 
 | Versión | Tag de Git | Fecha | Descripción |
 | :---: | :---: | :---: | :--- |
 | `v1.0` | `v1.0` | 24/08/2026 | Línea base inicial. Establecimiento de la arquitectura del repositorio y aprobación del Plan de Gestión de Configuración (README.md). |
+
+
