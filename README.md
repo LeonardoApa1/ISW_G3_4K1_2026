@@ -27,7 +27,7 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 
 ```text
 └── ISW_G3_4K1_2026
-    ├── 📁 base
+    ├── 📁 base_line
     │
     ├── 📁 material_catedra
     │   ├── 📁 bibliografia
@@ -63,7 +63,7 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 
 | Ítem de configuración | Regla de nombrado | Ubicación lógica (Carpeta) | Tipo de ítem |
 | :--- | :--- | :--- | :--- |
-| **Documento Línea Base (SCM)** | `ISW_<NAME_BL>BASE_LINE.md` | `base` | Producción Propia |
+| **Documento Línea Base (SCM)** | `ISW_<NAME_BL>BASE_LINE.md` | `base_line` | Producción Propia |
 | **Bibliografía** | `BIBLIO_<Nombre_Tema>_<Autor>.pdf` | `material_catedra/bibliografia` | Cátedra |
 | **Templates (Plantillas)** | `TEMPLATE_<Nombre_Tema>.pdf` | `material_catedra/templates` | Cátedra |
 | **Presentaciones (Filminas)** | `PRE_<Nombre_Tema>.pdf` | `material_catedra/presentaciones` | Cátedra |
@@ -100,6 +100,6 @@ Para ello, nos aseguraremos de que todos los documentos y resoluciones clave est
 
 | Versión | Tag de Git | Fecha | Descripción |
 | :---: | :---: | :---: | :--- |
-| `v1.0` | `v1.0` | 24/08/2026 | Línea base inicial. Establecimiento de la arquitectura del repositorio y aprobación del Plan de Gestión de Configuración (README.md). |
+| `v1.0` | `v1.0` | 24/08/2026 | Línea base inicial. Establecimiento de la arquitectura, aprobación del Plan de Configuración (README.md) y carga inicial de material de estudio provisto por la cátedra. |
 
 
