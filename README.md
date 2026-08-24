@@ -71,9 +71,9 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | **Trabajos Prácticos (Entregables)** | `ISW_G<X>_TP<NN>_<Nombre_Tema>.pdf` | `trabajos_practicos/tp_<NN>` | Producción Propia |
 | **Trabajos de Investigación** | `ISW_G<X>_INV<NN>_<Nombre_Tema>.pdf` | `trabajos_investigacion_grupal/investigacion_<NN>` | Producción Propia |
 | **Ejercicios Prácticos** | `EJER_P<P>_<Nombre_Tema>.pdf` | `ejercicios_practicos/para_parcial_<P>` | Clase |
-| **Parciales** | `PARCIAL<P>_<Año>_<Turno>.img` | `material_complementario/parciales_viejos_<P>` | Clase |
+| **Parciales** | `PARCIAL<P>_<Año>_<Turno>.png` | `material_complementario/parciales_viejos_<P>` | Clase |
 | **Resúmenes de Estudio** | `RESUMEN_P<P>_<Nombre_Tema>.pdf` | `material_complementario/resumenes_para_parciales` | Producción Propia |
-| **Apuntes de Clase** | `APUNTE_<Fecha>_<Nombre_Tema>_<Autor>.pdf` | `material_complementario/resumenes_para_parciales` | Producción Propia |
+| **Apuntes de Clase** | `APUNTE_<Fecha>_<Nombre_Tema>_<Autor>.pdf` | `material_complementario/apuntes_de_clase` | Producción Propia |
 
 ## Glosario de Nomenclatura
 
