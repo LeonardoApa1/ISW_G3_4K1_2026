@@ -52,10 +52,12 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
     │   ├── 📁 para_parcial_1
     │   └── 📁 para_parcial_2
     │
-    └── 📁 parciales
+    └── 📁 material_complementario
+        ├── 📁 apuntes_de_clase
         ├── 📁 parciales_viejos_1
         ├── 📁 parciales_viejos_2
         └── 📁 resumenes_para_parciales
+
 ```
 ## Ítems de configuración
 
@@ -69,8 +71,9 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | **Trabajos Prácticos (Entregables)** | `ISW_G<X>_TP<NN>_<Nombre_Tema>.pdf` | `trabajos_practicos/tp_<NN>` | Producción Propia |
 | **Trabajos de Investigación** | `ISW_G<X>_INV<NN>_<Nombre_Tema>.pdf` | `trabajos_investigacion_grupal/investigacion_<NN>` | Producción Propia |
 | **Ejercicios Prácticos** | `EJER_P<P>_<Nombre_Tema>.pdf` | `ejercicios_practicos/para_parcial_<P>` | Clase |
-| **Parciales** | `PARCIAL<P>_<Año>_<Turno>.img` | `parciales/parciales_viejos_<P>` | Clase |
-| **Resúmenes de Estudio** | `RESUMEN_P<P>_<Nombre_Tema>.pdf` | `parciales/resumenes_para_parciales` | Producción Propia |
+| **Parciales** | `PARCIAL<P>_<Año>_<Turno>.img` | `material_complementario/parciales_viejos_<P>` | Clase |
+| **Resúmenes de Estudio** | `RESUMEN_P<P>_<Nombre_Tema>.pdf` | `material_complementario/resumenes_para_parciales` | Producción Propia |
+| **Apuntes de Clase** | `APUNTE_<Fecha>_<Nombre_Tema>_<Autor>.pdf` | `material_complementario/resumenes_para_parciales` | Producción Propia |
 
 ## Glosario de Nomenclatura
 
@@ -84,6 +87,7 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | `<Autor>` | Apellido del autor del material de estudio (Ej: sommerville, pressman). |
 | `<Año>` | Año en el que se tomó el parcial viejo (Ej: 2024, 2025). |
 | `<Turno>` | Turno en el que se tomó el examen. Valores posibles: M (Mañana), T (Tarde), N (Noche). |
+| `<Fecha>` | Fecha en la que se tomó el apunte o se dictó la clase. Formato numérico AAAA-MM-DD (Ej: 2026-08-24). |
 
 
 ## Criterio de línea base
