@@ -19,6 +19,7 @@ Repositorio para la materia ingeniería y calidad de software, del curso 4k1 - G
 | 11 | Prado, Ignacio | 97286 |
 | 12 | Torres Linares, Hernán | 401089 |
 | 13 | Zurbriggen, Ignacio | 94110 |
+| 14 | Heck, Sebastian | 79848 |
 
 ## Estructura del repositorio
 
@@ -54,6 +55,8 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
         ├── 📁 parciales_viejos_2
         └── 📁 resumenes_para_parciales
 ```
+*(Nota de infraestructura: Debido a que el sistema de control de versiones Git no rastrea directorios vacíos, las carpetas que temporalmente no posean contenido incluyen un archivo oculto `.gitkeep`. Este archivo es de carácter puramente estructural para mantener la arquitectura del repositorio, no se considera un Ítem de Configuración y puede ser eliminado una vez que el directorio aloje los entregables correspondientes).*
+
 ## Ítems de configuración
 
 | Ítem de configuración | Regla de nombrado | Ubicación lógica (Carpeta) | Tipo de ítem |
@@ -78,12 +81,12 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | `<NN>` | Número correlativo de dos dígitos (Ej: 01, 02, 07). |
 | `<P>` | Número identificador del parcial. Valores posibles: 1 o 2. |
 | `<Nombre_Tema>` | Descripción corta del tema en formato *snake_case* y sin tildes (Ej: scm, testing). |
-| `<Autor>` | Apellido del autor del material de estudio (Ej: sommerville, pressman). |
+| `<Autor>` | Apellido del autor del material de estudio. Si el material tiene múltiples autores, se utiliza el apellido del autor principal seguido de `_et_al` (Ej: `sommerville`, `pressman_et_al`).|
 | `<Año>` | Año en el que se tomó el parcial viejo (Ej: 2024, 2025). |
 | `<Turno>` | Turno en el que se tomó el examen. Valores posibles: M (Mañana), T (Tarde), N (Noche). |
 
 
-## 🏷️ Criterio de línea base
+## Criterio de línea base
 
 Una **Línea Base** representa un estado estable, formalmente revisado y congelado de los ítems de configuración del proyecto. Como grupo, definimos que se establecerán líneas base en los siguientes hitos:
 
@@ -96,7 +99,7 @@ Cada línea base se marcará obligatoriamente mediante un **Tag de Git** en el r
 * **`MAJOR`**: Se incrementa cada vez que se alcanza un nuevo hito principal (Ej: Aprobación del repositorio inicial `v1.0`, Entrega del TP 1 `v2.0`, Entrega del TP 2 `v3.0`).
 * **`MINOR`**: Se incrementa exclusivamente cuando se integran correcciones, ajustes o parches sobre un hito mayor ya entregado, producto del feedback de la cátedra (Ej: Si el TP 1 entregado en la `v2.0` requiere ajustes, la nueva versión corregida será la `v2.1`).
 
-## 📌 Registro de líneas base
+## Registro de líneas base
 
 | Versión | Tag de Git | Fecha | Descripción |
 | :---: | :---: | :---: | :--- |
