@@ -42,7 +42,13 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
     │   ├── 📁 tp_04
     │   ├── 📁 tp_05
     │   ├── 📁 tp_06
-    │   └── 📁 tp_07
+    │   ├── 📁 tp_07
+    │   ├── 📁 tp_08
+    │   ├── 📁 tp_09
+    │   ├── 📁 tp_10
+    │   ├── 📁 tp_11
+    │   ├── 📁 tp_12
+    │   └── 📁 tp_13
     │
     ├── 📁 trabajos_investigacion_grupal
     │   ├── 📁 investigacion_01
@@ -86,20 +92,23 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | `<Nombre_Tema>` | Descripción corta del tema en formato *snake_case* y sin tildes (Ej: scm, testing). |
 | `<Autor>` | Apellido del autor del material de estudio (Ej: sommerville, pressman). |
 | `<Año>` | Año en el que se tomó el parcial viejo (Ej: 2024, 2025). |
-| `<Turno>` | Turno en el que se tomó el examen. Valores posibles: M (Mañana), T (Tarde), N (Noche). |
 | `<Fecha>` | Fecha en la que se tomó el apunte o se dictó la clase. Formato numérico AAAA-MM-DD (Ej: 2026-08-24). |
 
 
 ## Criterio de línea base
 
-Como grupo, hemos decidido que el momento para definir una nueva línea base será cuando el repositorio alcance un hito u objetivo importante en términos de completitud académica y de gestión. Esto sucederá al consolidar un conjunto significativo de entregables o material de estudio, garantizando que el contenido se encuentre en un estado estable y apto para ser auditado, evaluado o utilizado como referencia final.
+Como grupo, hemos establecido que la creación de nuevas líneas base estará ligada al ciclo de vida de los Trabajos Practicos y Trabajos de Investigación. Este enfoque asegura que el establecimiento de líneas base sea predecible, auditable y directamente proporcional al avance de la materia.
 
-Para ello, nos aseguraremos de que todos los documentos y resoluciones clave estén finalizados, que no existan inconsistencias estructurales, y que los archivos cumplan con los requisitos formales acordados. Además, la totalidad de los ítems de configuración asociados deberán estar actualizados, respetando la nomenclatura definida, y el material deberá haber pasado por las revisiones del equipo antes de ser marcado formalmente como línea base en el repositorio
+Se definirá y etiquetará una nueva línea base cuando se cumplan los siguientes hitos:
+
+1. **Hito de Entrega Inicial:** Se hara una línea base en el momento en que se finalice la versión inicial de un Trabajo Practico o Trabajo de Investigacion.
+2. **Hito de Corrección / Aprobación:** Se establecerá una nueva línea base al momento de integrar al repositorio los ajustes, correcciones o mejoras solicitadas por el equipo docente referido al trabajo".
 
 ## Registro de líneas base
 
 | Versión | Tag de Git | Fecha | Descripción |
-| :---: | :---: | :---: | :--- |
-| `v1.0` | `v1.0` | 24/08/2026 | Línea base inicial. Establecimiento de la arquitectura, aprobación del Plan de Configuración (README.md) y carga inicial de material de estudio provisto por la cátedra. |
+| :--- | :--- | :--- | :--- |
+| `v1.0` | `v1.0` | 2026-08-24 | Primera línea base correspondiente a la entrega del TP4. Incluyendo la creación de la estructura inicial de carpetas, el Plan de Configuración (README.md) y el material de estudio inicial provisto por la cátedra. |
+| `v1.1` | `v1.1` | 2026-09-04 | Línea base correspondiente a la corrección del TP4. Incluye la carga completa de la totalidad del material anual de la UV, el completado de la estructura del repositorio y mejorando el criterio de la linea base. |
 
 
