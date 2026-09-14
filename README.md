@@ -31,7 +31,6 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
     │
     ├── 📁 material_catedra
     │   ├── 📁 bibliografia
-    │   ├── 📁 guias
     │   ├── 📁 presentaciones
     │   └── 📁 templates
     │
@@ -73,8 +72,7 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | **Bibliografía** | `BIBLIO_<Nombre_Tema>_<Autor>.pdf` | `material_catedra/bibliografia` | Cátedra |
 | **Templates (Plantillas)** | `TEMPLATE_<Nombre_Tema>.pdf` | `material_catedra/templates` | Cátedra |
 | **Presentaciones (Filminas)** | `PRE_<Nombre_Tema>.pdf` | `material_catedra/presentaciones` | Cátedra |
-| **Guías de Cátedra** | `GUIA_<Nombre_Tema>.pdf` | `material_catedra/guias` | Cátedra |
-| **Trabajos Prácticos (Entregables)** | `ISW_G<X>_TP<NN>_<Nombre_Tema>.pdf` | `trabajos_practicos/tp_<NN>` | Producción Propia |
+| **Trabajos Prácticos ** | `ISW_G<X>_TP<NN>_<Nombre_Tema>.pdf` | `trabajos_practicos/tp_<NN>` | Producción Propia |
 | **Trabajos de Investigación** | `ISW_G<X>_INV<NN>_<Nombre_Tema>.pdf` | `trabajos_investigacion_grupal/investigacion_<NN>` | Producción Propia |
 | **Ejercicios Prácticos** | `EJER_P<P>_<Nombre_Tema>.pdf` | `ejercicios_practicos/para_parcial_<P>` | Clase |
 | **Parciales** | `PARCIAL<P>_<Año>_<Turno>.png` | `material_complementario/parciales_viejos_<P>` | Clase |
