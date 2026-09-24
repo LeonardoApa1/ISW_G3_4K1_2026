@@ -68,9 +68,10 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | :--- | :--- | :--- | :--- |
 | **Documento Línea Base (SCM)** | `ISW_<NAME_BL>BASE_LINE.md` | `base_line` | Producción Propia |
 | **Bibliografía** | `BIBLIO_<Nombre_Tema>_<Autor>.pdf` | `material_catedra/bibliografia` | Cátedra |
-| **Templates (Plantillas)** | `TEMPLATE_<Nombre_Tema>.pdf` | `material_catedra/templates` | Cátedra |
+| **Templates (Plantillas)** | `TEMPLATE_<Nombre_Tema>.pdf / .xlsx` | `material_catedra/templates` | Cátedra |
 | **Presentaciones (Filminas)** | `PRE_<Nombre_Tema>.pdf` | `material_catedra/presentaciones` | Cátedra |
-| **Trabajos Prácticos ** | `ISW_G<X>_TP<NN>_<Nombre_Tema>.pdf` | `trabajos_practicos/tp_<NN>` | Producción Propia |
+| **Trabajos Prácticos** | `ISW_G<X>_TP<NN>_<Nombre_Tema>.pdf` | `trabajos_practicos/tp_<NN>` | Producción Propia |
+| **Trabajos Prácticos (Código Fuente)** | `Nomenclatura nativa del lenguaje utilizado (Ej: py, js)` | `trabajos_practicos/tp_<NN>` | Producción Propia |
 | **Trabajos de Investigación** | `ISW_G<X>_INV<NN>_<Nombre_Tema>.pdf` | `trabajos_investigacion_grupal/investigacion_<NN>` | Producción Propia |
 | **Ejercicios Prácticos** | `EJER_<Nombre_Tema>.pdf` | `ejercicios_practicos` | Clase |
 | **Parciales** | `PARCIAL<P>_<Año>.png` | `material_complementario/parciales_viejos_<P>` | Clase |
@@ -105,6 +106,6 @@ Se definirá y etiquetará una nueva línea base cuando se cumplan los siguiente
 | Versión | Tag de Git | Fecha | Descripción |
 | :--- | :--- | :--- | :--- |
 | `v1.0` | `v1.0` | 2026-08-24 | Primera línea base correspondiente a la entrega del TP4. Incluyendo la creación de la estructura inicial de carpetas, el Plan de Configuración (README.md) y el material de estudio inicial provisto por la cátedra. |
-| `v1.1` | `v1.1` | 2026-09-04 | Línea base correspondiente a la corrección del TP4. Incluye la carga completa de la totalidad del material anual de la UV, el completado de la estructura del repositorio y mejorando el criterio de la linea base. |
+| `v1.1` | `v1.1` | 2026-09-24 | Línea base correspondiente a la corrección del TP4. Incluye la carga completa del material anual de la UV, la estabilización de la estructura del repositorio y la actualización del Plan SCM (mejora en el criterio de línea base y flexibilización de extensiones en la nomenclatura). |
 
 
