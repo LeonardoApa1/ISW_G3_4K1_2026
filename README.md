@@ -107,5 +107,6 @@ Se definirá y etiquetará una nueva línea base cuando se cumplan los siguiente
 | :--- | :--- | :--- | :--- |
 | `v1.0` | `v1.0` | 2026-08-24 | Primera línea base correspondiente a la entrega del TP4. Incluyendo la creación de la estructura inicial de carpetas, el Plan de Configuración (README.md) y el material de estudio inicial provisto por la cátedra. |
 | `v1.1` | `v1.1` | 2026-09-24 | Línea base correspondiente a la corrección del TP4. Incluye la carga completa del material anual de la UV, la estabilización de la estructura del repositorio y la actualización del Plan SCM (mejora en el criterio de línea base y flexibilización de extensiones en la nomenclatura). |
+| `v1.2` | `v1.2` | 2026-09-25 | Línea base correspondiente a la resolución del TP1 (Gestión Lean-Ágil de Productos de Software). Contiene las tarjetas de Historias de Usuario para el dominio "Mis Gastos Familiares". |
 
 
