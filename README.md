@@ -57,8 +57,6 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
     │
     └── 📁 material_complementario
         ├── 📁 apuntes_de_clase
-        ├── 📁 parciales_viejos_1
-        ├── 📁 parciales_viejos_2
         └── 📁 resumenes_para_parciales
 
 ```
@@ -74,7 +72,6 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | **Trabajos Prácticos (Código Fuente)** | `Nomenclatura nativa del lenguaje utilizado (Ej: py, js)` | `trabajos_practicos/tp_<NN>` | Producción Propia |
 | **Trabajos de Investigación** | `ISW_G<X>_INV<NN>_<Nombre_Tema>.pdf` | `trabajos_investigacion_grupal/investigacion_<NN>` | Producción Propia |
 | **Ejercicios Prácticos** | `EJER_<Nombre_Tema>.pdf` | `ejercicios_practicos` | Clase |
-| **Parciales** | `PARCIAL<P>_<Año>.png` | `material_complementario/parciales_viejos_<P>` | Clase |
 | **Resúmenes de Estudio** | `RESUMEN_P<P>_<Nombre_Tema>.pdf` | `material_complementario/resumenes_para_parciales` | Producción Propia |
 | **Apuntes de Clase** | `APUNTE_<Fecha>_<Nombre_Tema>_<Autor>.pdf` | `material_complementario/apuntes_de_clase` | Producción Propia |
 
@@ -88,7 +85,6 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | `<P>` | Número identificador del parcial. Valores posibles: 1 o 2. |
 | `<Nombre_Tema>` | Descripción corta del tema en formato *snake_case* y sin tildes (Ej: scm, testing). |
 | `<Autor>` | Apellido del autor del material de estudio (Ej: sommerville, pressman). |
-| `<Año>` | Año en el que se tomó el parcial viejo (Ej: 2024, 2025). |
 | `<Fecha>` | Fecha en la que se tomó el apunte o se dictó la clase. Formato numérico AAAA-MM-DD (Ej: 2026-08-24). |
 
 
@@ -109,5 +105,4 @@ Se definirá y etiquetará una nueva línea base cuando se cumplan los siguiente
 | `v1.1` | `v1.1` | 2026-09-24 | Línea base correspondiente a la corrección del TP4. Incluye la carga completa del material anual de la UV, la estabilización de la estructura del repositorio y la actualización del Plan SCM (mejora en el criterio de línea base y flexibilización de extensiones en la nomenclatura). |
 | `v1.2` | `v1.2` | 2026-09-25 | Línea base correspondiente a la resolución del TP1 (Gestión Lean-Ágil de Productos de Software). Contiene las tarjetas de Historias de Usuario para el dominio "Mis Gastos Familiares". |
 | `v1.3` | `v1.3` | 2026-09-27 | Línea base correspondiente a la resolución e integración del TP2 (Gestión Lean-Ágil). Contiene la identificación de roles, definición del MVP, y las Historias de Usuario (canónicas y estimadas) para el caso "EcoHarmony Park". |
-
-
+| `v1.4` | `v1.4` | 2026-10-05 | Línea base correspondiente a la resolución e integración del TP3 (Gestión Lean-Ágil). Contiene la identificación de roles, definición del MVP y las Historias de Usuario para el dominio "Recircula tus prendas - Cuida el planeta". |
