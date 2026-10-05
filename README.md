@@ -82,7 +82,7 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | `<NAME_BL>` | Nombre de la línea base. Se especifica el tipo de línea base. |
 | `<X>` | Número identificador del grupo (Ej: 1). |
 | `<NN>` | Número correlativo de dos dígitos (Ej: 01, 02, 07). |
-| `<P>` | Número identificador del parcial. Valores posibles: 1 o 2. |
+| `<P>` | Número identificador del parcial. Valores posibles: 1 o 2 o FINAL |
 | `<Nombre_Tema>` | Descripción corta del tema en formato *snake_case* y sin tildes (Ej: scm, testing). |
 | `<Autor>` | Apellido del autor del material de estudio (Ej: sommerville, pressman). |
 | `<Fecha>` | Fecha en la que se tomó el apunte o se dictó la clase. Formato numérico AAAA-MM-DD (Ej: 2026-08-24). |
