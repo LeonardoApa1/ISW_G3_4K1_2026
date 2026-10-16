@@ -1,16 +1,16 @@
-const { validarUsuario, validarCantidadEntradas } = require('./compraEntradas');
+const { validarUsuario, validarCantidadEntradas, MENSAJES_ERROR } = require('./compraEntradas');
 
 describe('Validación de usuario', () => {
   test('TC-01: Rechazar compra cuando el usuario no es proporcionado', () => {
-    expect(() => validarUsuario(null)).toThrow('Debe iniciar sesión con un usuario registrado');
+    expect(() => validarUsuario(null)).toThrow(MENSAJES_ERROR.USUARIO_NO_PROPORCIONADO);
   });
 
   test('TC-02: Rechazar compra cuando el usuario no está registrado', () => {
-    expect(() => validarUsuario({ id: 1, registrado: false })).toThrow('Se permite la compra solo a usuarios registrados');
+    expect(() => validarUsuario({ id: 1, registrado: false })).toThrow(MENSAJES_ERROR.USUARIO_NO_REGISTRADO);
   });
 
   test('TC-03: Rechazar compra cuando el usuario registrado no tiene ID válido', () => {
-    expect(() => validarUsuario({ id: null, registrado: true })).toThrow('Identificador de usuario inválido');
+    expect(() => validarUsuario({ id: null, registrado: true })).toThrow(MENSAJES_ERROR.ID_USUARIO_INVALIDO);
   });
 
   test('TC-04: Permitir validación cuando el usuario está registrado y es válido', () => {
@@ -20,11 +20,11 @@ describe('Validación de usuario', () => {
 
 describe('Validación de cantidad de entradas', () => {
   test('TC-05: Rechazar compra cuando la cantidad de entradas es 0 (Valor límite inferior inválido)', () => {
-    expect(() => validarCantidadEntradas(0)).toThrow('La cantidad de entradas debe ser al menos 1');
+    expect(() => validarCantidadEntradas(0)).toThrow(MENSAJES_ERROR.CANTIDAD_INVALIDA);
   });
 
   test('TC-06: Rechazar compra cuando la cantidad de entradas es negativa', () => {
-    expect(() => validarCantidadEntradas(-3)).toThrow('La cantidad de entradas debe ser al menos 1');
+    expect(() => validarCantidadEntradas(-3)).toThrow(MENSAJES_ERROR.CANTIDAD_INVALIDA);
   });
 
   test('TC-07: Aceptar compra cuando la cantidad de entradas es 1 (Valor límite inferior válido)', () => {
