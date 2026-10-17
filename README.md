@@ -63,3 +63,11 @@ npm run dev:backend
 Las validaciones y los precios viven en `backend/src/domain` y
 `backend/src/services`; los adaptadores de persistencia, pago y correo se
 inyectan desde `backend/src/server.js`.
+
+## Ejercicios TDD: compraEntradas
+
+Para ejecutar las pruebas del ejercicio de TDD de compra de entradas:
+
+```bash
+npx jest "Prueba BRUNO/compraEntradas.test.js"
+```
