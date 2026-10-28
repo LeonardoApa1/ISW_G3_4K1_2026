@@ -11,15 +11,14 @@ Repositorio para la materia ingeniería y calidad de software, del curso 4k1 - G
 | 3 | Cavilla, Matias | 90589 |
 | 4 | Cugno, Nicolás | 94949 |
 | 5 | Durán, Francisco | 402790 |
-| 6 | Ferrer, Felipe | 95785 |
-| 7 | Garcia, Bruno | 96596 |
-| 8 | Llorens, Juan Cruz | 91927 |
-| 9 | López, Iván | 89776 |
-| 10 | Musumeci, Agustín | 401068 |
-| 11 | Prado, Ignacio | 97286 |
-| 12 | Torres Linares, Hernán | 401089 |
-| 13 | Zurbriggen, Ignacio | 94110 |
-| 14 | Heck, Sebastian | 79848 |
+| 6 | Garcia, Bruno | 96596 |
+| 7 | Llorens, Juan Cruz | 91927 |
+| 8 | López, Iván | 89776 |
+| 9 | Musumeci, Agustín | 401068 |
+| 10 | Prado, Ignacio | 97286 |
+| 11 | Torres Linares, Hernán | 401089 |
+| 12 | Zurbriggen, Ignacio | 94110 |
+| 13 | Heck, Sebastian | 79848 |
 
 ## Estructura del repositorio
 
@@ -69,11 +68,15 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | **Templates (Plantillas)** | `TEMPLATE_<Nombre_Tema>.pdf / .xlsx` | `material_catedra/templates` | Cátedra |
 | **Presentaciones (Filminas)** | `PRE_<Nombre_Tema>.pdf` | `material_catedra/presentaciones` | Cátedra |
 | **Trabajos Prácticos** | `ISW_G<X>_TP<NN>_<Nombre_Tema>.pdf` | `trabajos_practicos/tp_<NN>` | Producción Propia |
-| **Trabajos Prácticos (Código Fuente)** | `Nomenclatura nativa del lenguaje utilizado (Ej: py, js)` | `trabajos_practicos/tp_<NN>` | Producción Propia |
+| **Trabajos Prácticos (Código Fuente)** | `Nomenclatura nativa del lenguaje utilizado` | `Repositorio externo (Vinculado en trabajos_practicos/tp_<NN>)` | Producción Propia |
 | **Trabajos de Investigación** | `ISW_G<X>_INV<NN>_<Nombre_Tema>.pdf` | `trabajos_investigacion_grupal/investigacion_<NN>` | Producción Propia |
 | **Ejercicios Prácticos** | `EJER_<Nombre_Tema>.pdf` | `ejercicios_practicos` | Clase |
 | **Resúmenes de Estudio** | `RESUMEN_P<P>_<Nombre_Tema>.pdf` | `material_complementario/resumenes_para_parciales` | Producción Propia |
 | **Apuntes de Clase** | `APUNTE_<Fecha>_<Nombre_Tema>_<Autor>.pdf` | `material_complementario/apuntes_de_clase` | Producción Propia |
+
+### Repositorios de Desarrollo Vinculados
+Para los trabajos prácticos que involucran desarrollo de software, el código fuente se gestiona en repositorios dedicados manteniendo la trazabilidad desde este repositorio principal a través de la documentación del TP correspondiente:
+* **TP 06 (Código Fuente):** https://github.com/FranciscoDuran78/TP6-ISW-G3-EcoHarmony.git 
 
 ## Glosario de Nomenclatura
 
@@ -107,3 +110,4 @@ Se definirá y etiquetará una nueva línea base cuando se cumplan los siguiente
 | `v1.3` | `v1.3` | 2026-09-27 | Línea base correspondiente a la resolución e integración del TP2 (Gestión Lean-Ágil). Contiene la identificación de roles, definición del MVP, y las Historias de Usuario (canónicas y estimadas) para el caso "EcoHarmony Park". |
 | `v1.4` | `v1.4` | 2026-10-05 | Línea base correspondiente a la resolución e integración del TP3 (Gestión Lean-Ágil). Contiene la identificación de roles, definición del MVP y las Historias de Usuario para el dominio "Recircula tus prendas - Cuida el planeta". |
 | `v1.5` | `v1.5` | 2026-10-12 | Línea base correspondiente a la entrega del TP7 (SCRUM - Ejercicio evaluable). Incluye documentación de dinámicas ágiles para el proyecto "Parque de diversiones". Aprobado con calificación 10, consolidándose como versión definitiva sin iteración de corrección. |
+| `v1.6` | `v1.6` | 2026-10-28 | Línea base correspondiente a la entrega del TP6 (Desarrollo TDD) y actualización del Plan SCM para incorporar la trazabilidad hacia repositorios externos.|
