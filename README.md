@@ -15,10 +15,9 @@ Repositorio para la materia ingeniería y calidad de software, del curso 4k1 - G
 | 7 | Llorens, Juan Cruz | 91927 |
 | 8 | López, Iván | 89776 |
 | 9 | Musumeci, Agustín | 401068 |
-| 10 | Prado, Ignacio | 97286 |
-| 11 | Torres Linares, Hernán | 401089 |
-| 12 | Zurbriggen, Ignacio | 94110 |
-| 13 | Heck, Sebastian | 79848 |
+| 10 | Torres Linares, Hernán | 401089 |
+| 11 | Zurbriggen, Ignacio | 94110 |
+| 12 | Heck, Sebastian | 79848 |
 
 ## Estructura del repositorio
 
@@ -111,3 +110,4 @@ Se definirá y etiquetará una nueva línea base cuando se cumplan los siguiente
 | `v1.4` | `v1.4` | 2026-10-05 | Línea base correspondiente a la resolución e integración del TP3 (Gestión Lean-Ágil). Contiene la identificación de roles, definición del MVP y las Historias de Usuario para el dominio "Recircula tus prendas - Cuida el planeta". |
 | `v1.5` | `v1.5` | 2026-10-12 | Línea base correspondiente a la entrega del TP7 (SCRUM - Ejercicio evaluable). Incluye documentación de dinámicas ágiles para el proyecto "Parque de diversiones". Aprobado con calificación 10, consolidándose como versión definitiva sin iteración de corrección. |
 | `v1.6` | `v1.6` | 2026-10-28 | Línea base correspondiente a la entrega del TP6 (Desarrollo TDD) y actualización del Plan SCM para incorporar la trazabilidad hacia repositorios externos.|
+| `v1.7` | `v1.7` | 2026-11-06 | Línea base correspondiente al hito de aprobación del TP6 (Desarrollo TDD). Documenta el registro de observaciones docentes (validación de reglas de negocio y aserciones en Jest), dando por cerrado el entregable. |
