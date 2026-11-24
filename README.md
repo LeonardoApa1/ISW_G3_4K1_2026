@@ -17,7 +17,6 @@ Repositorio para la materia ingeniería y calidad de software, del curso 4k1 - G
 | 9 | Musumeci, Agustín | 401068 |
 | 10 | Torres Linares, Hernán | 401089 |
 | 11 | Zurbriggen, Ignacio | 94110 |
-| 12 | Heck, Sebastian | 79848 |
 
 ## Estructura del repositorio
 
@@ -86,8 +85,8 @@ Para los trabajos prácticos que involucran desarrollo de software, el código f
 | `<NN>` | Número correlativo de dos dígitos (Ej: 01, 02, 07). |
 | `<P>` | Número identificador del parcial. Valores posibles: 1 o 2 o FINAL |
 | `<Nombre_Tema>` | Descripción corta del tema en formato *snake_case* y sin tildes (Ej: scm, testing). |
-| `<Autor>` | Apellido del autor del material de estudio (Ej: sommerville, pressman). |
-| `<Fecha>` | Fecha en la que se tomó el apunte o se dictó la clase. Formato numérico AAAA-MM-DD (Ej: 2026-08-24). |
+| `<Autor>` | Apellido del autor del material de estudio. |
+| `<Fecha>` | Fecha en la que se tomó el apunte o se dictó la clase. Formato numérico DD-MM-AA (Ej: 24-08-26). |
 
 
 ## Criterio de línea base
@@ -97,7 +96,7 @@ Como grupo, hemos establecido que la creación de nuevas líneas base estará li
 Se definirá y etiquetará una nueva línea base cuando se cumplan los siguientes hitos:
 
 1. **Hito de Entrega Inicial:** Se hara una línea base en el momento en que se finalice la versión inicial de un Trabajo Practico o Trabajo de Investigacion.
-2. **Hito de Corrección / Aprobación:** Se establecerá una nueva línea base al momento de integrar al repositorio los ajustes, correcciones o mejoras solicitadas por el equipo docente referido al trabajo".
+2. **Hito de Corrección / Aprobación:** Se establecerá una nueva línea base al momento de integrar al repositorio los ajustes, correcciones o mejoras solicitadas por el equipo docente referido al trabajo.
 
 ## Registro de líneas base
 
