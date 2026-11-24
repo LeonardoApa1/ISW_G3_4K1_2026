@@ -66,7 +66,7 @@ La estructura de este repositorio refleja la arquitectura lógica de directorios
 | **Templates (Plantillas)** | `TEMPLATE_<Nombre_Tema>.pdf / .xlsx` | `material_catedra/templates` | Cátedra |
 | **Presentaciones (Filminas)** | `PRE_<Nombre_Tema>.pdf` | `material_catedra/presentaciones` | Cátedra |
 | **Trabajos Prácticos** | `ISW_G<X>_TP<NN>_<Nombre_Tema>.pdf` | `trabajos_practicos/tp_<NN>` | Producción Propia |
-| **Trabajos Prácticos (Código Fuente)** | `Nomenclatura nativa del lenguaje utilizado` | `Repositorio externo (Vinculado en trabajos_practicos/tp_<NN>)` | Producción Propia |
+| **Trabajos Prácticos (Código Fuente)** | Convenciones nativas de los lenguajes y frameworks utilizados (vinculado vía `ISW_G<X>_TP<NN>_<Nombre_Tema>.pdf`) | `Repositorio externo (Vinculado en trabajos_practicos/tp_<NN>)` | Producción Propia |
 | **Trabajos de Investigación** | `ISW_G<X>_INV<NN>_<Nombre_Tema>.pdf` | `trabajos_investigacion_grupal/investigacion_<NN>` | Producción Propia |
 | **Ejercicios Prácticos** | `EJER_<Nombre_Tema>.pdf` | `ejercicios_practicos` | Clase |
 | **Resúmenes de Estudio** | `RESUMEN_P<P>_<Nombre_Tema>.pdf` | `material_complementario/resumenes_para_parciales` | Producción Propia |
